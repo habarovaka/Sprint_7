@@ -1,0 +1,25 @@
+# Виртуальное окружение Python
+.venv/
+venv/
+ENV/
+env/
+
+# Кэш Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Настройки PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+
+# Логи и кэш PyTest
+.pytest_cache/
+.pytest/
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+allure-results/
