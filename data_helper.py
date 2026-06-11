@@ -11,3 +11,14 @@ def generate_courier_data():
         "password": generate_random_string(10),
         "firstName": generate_random_string(10)
     }
+
+BASE_ORDER_PAYLOAD = {
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "address": "Москва",
+    "metroStation": 4,
+    "phone": "+79991112233",
+    "rentTime": 5,
+    "deliveryDate": "2026-12-31",
+    "comment": "Тест"
+}
